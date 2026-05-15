@@ -2,7 +2,7 @@
 
 Welcome to the OctoAcme Project Management documentation suite. This knowledge base contains standardized processes, templates, and guidance for running projects at OctoAcme.
 
-## Quick Start
+## Quick Start :
 
 New to OctoAcme projects? Start with the [Project Management Overview](octoacme-project-management-overview.md) to understand our approach, core roles, and key artifacts.
 
