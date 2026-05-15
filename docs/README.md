@@ -102,6 +102,7 @@ All OctoAcme projects maintain consistent quality through:
 ## Issue Templates
 
 To propose updates to these process documents, use the issue template in `.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml`. This ensures proposed changes are reviewed for alignment with existing processes and team needs.
+truc en plus
 
 ---
 
