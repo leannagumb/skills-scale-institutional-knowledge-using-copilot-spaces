@@ -6,7 +6,7 @@ Welcome to the OctoAcme Project Management documentation hub. This folder contai
 
 **New to OctoAcme projects?** Start with the [Project Management Overview](octoacme-project-management-overview.md) for a concise introduction to our approach, roles, and key artifacts.
 
-## Project Lifecycle & Processes
+## Project Lifecycle & Processes:
 
 OctoAcme projects follow a five-phase lifecycle, each supported by dedicated guidance:
 
