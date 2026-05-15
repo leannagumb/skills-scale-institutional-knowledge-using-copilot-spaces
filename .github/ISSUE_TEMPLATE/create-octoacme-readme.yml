@@ -1,0 +1,111 @@
+name: "Create README for OctoAcme Project Management Docs"
+description: "Request to create a comprehensive README for OctoAcme Project Management Docs with process summary and links"
+title: "[Process Doc Update]: Create README for OctoAcme Project Management Docs with process summary and links"
+labels: ["documentation", "process improvement"]
+body:
+  - type: dropdown
+    id: process_doc
+    attributes:
+      label: "Which process document do you want to update?"
+      description: "Select the program management process document you want to add content to. For this request, select the new document option."
+      options:
+        - octoacme-project-management-overview.md
+        - octoacme-project-initiation.md
+        - octoacme-project-planning.md
+        - octoacme-execution-and-tracking.md
+        - octoacme-risks-and-communication.md
+        - octoacme-release-and-deployment.md
+        - octoacme-retrospective-and-continuous-improvement.md
+        - octoacme-roles-and-personas.md
+        - 
+    validations:
+      required: true
+
+  - type: textarea
+    id: content_summary
+    attributes:
+      label: "Summary of New Content"
+      description: "Briefly describe the new content or update you want to add."
+      value: |
+        Create a comprehensive README file for the OctoAcme Project Management Docs that:
+        - Provides an overview of the OctoAcme project management framework
+        - Includes links to all process documentation files in the docs/ folder
+        - Summarizes the key project management processes and lifecycle stages
+        - Explains how to use these documents as a knowledge base
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: "Why is this update needed?"
+      description: "Explain the reason for this addition. Is it to address a gap, improve clarity, incorporate a best practice, etc.?"
+      value: |
+        Currently, team members navigating the docs/ folder lack a central entry point to understand the complete project management framework. A README will:
+        - Improve discoverability of all process documents
+        - Provide quick context for new team members and contributors
+        - Establish a single source of truth for OctoAcme processes
+        - Make it easier to understand how all documents connect together
+    validations:
+      required: true
+
+  - type: textarea
+    id: example_content
+    attributes:
+      label: "Suggested Content"
+      description: "Paste the proposed new text, checklist, diagram, or example content you'd like to add."
+      value: |
+        ### Proposed README.md Structure:
+
+        # OctoAcme Project Management Docs
+
+        ## Quick Start
+        New to OctoAcme projects? Start with the Project Management Overview
+
+        ## Project Lifecycle & Processes
+        
+        ### 1. Initiation — Validate & Authorize Work
+        → [Project Initiation Guide](octoacme-project-initiation.md)
+        
+        ### 2. Planning — Create Actionable Plan
+        → [Project Planning](octoacme-project-planning.md)
+        
+        ### 3. Execution & Tracking — Day-to-Day Delivery
+        → [Execution & Tracking](octoacme-execution-and-tracking.md)
+        
+        ### 4. Release & Deployment — Move to Production
+        → [Release & Deployment Guide](octoacme-release-and-deployment.md)
+        
+        ### 5. Close & Continuous Improvement — Capture Learnings
+        → [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md)
+
+        ## Cross-Cutting Concerns
+
+        ### Roles & Personas
+        → [OctoAcme Roles & Personas](octoacme-roles-and-personas.md)
+
+        ### Risk Management & Communication
+        → [Risk Management & Communication](octoacme-risks-and-communication.md)
+
+        ## Core Principles
+        - Customer-first
+        - Iterative delivery
+        - Clear ownership
+        - Data-informed decisions
+        - Psychological safety
+
+        ## Document Index Table
+        Complete table with all 8 documents, purposes, and links
+
+  - type: checkboxes
+    id: acceptance_criteria
+    attributes:
+      label: "Acceptance Criteria"
+      description: "Check all that apply:"
+      options:
+        - label: "Content aligns with existing process docs"
+          required: true
+        - label: "Update improves clarity or closes a documented gap"
+          required: true
+        - label: "Proposed content has been reviewed with stakeholders (if needed)"
+          required: true
