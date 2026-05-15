@@ -2,7 +2,7 @@
 
 Welcome to the OctoAcme Project Management documentation hub. This folder contains comprehensive guides for running structured, customer-first projects across our organization.
 
-## Quick Start
+## Quick Start :
 
 **New to OctoAcme projects?** Start with the [Project Management Overview](octoacme-project-management-overview.md) for a concise introduction to our approach, roles, and key artifacts.
 
